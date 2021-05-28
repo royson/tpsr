@@ -16,4 +16,15 @@ Upsampled images are saved in 'output_images'.
 2) Getting output images using your own input images in the 'input_images' folder using TPSR_D2 (No evaluation)
 `python evaluate.py --model pretrained/TPSR_D2X4.pt --ground_truth ''`
 
+#### Citation:
+
+Please consider citing our paper if you find it helpful:
+```
+@article{Lee2020JourneyTT,
+  title={Journey Towards Tiny Perceptual Super-Resolution},
+  author={Royson Lee and L. Dudziak and M. Abdelfattah and Stylianos I. Venieris and H. Kim and Hongkai Wen and N. Lane},
+  journal={ECCV},
+  year={2020}
+}
+```
 
